@@ -1,0 +1,121 @@
+div.third-section {
+    padding: 50px 100px 0px 100px;
+}
+div.third-section-track {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: rgb(255, 227, 225);
+}
+
+div.third-section-track-item {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+div.third-section-track-item-div-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.third-section-track-item-img {
+    height: 70px;
+    border-radius: 70px;
+    border: 3px solid black;
+}
+div.third-section-track-label > h2 {
+    padding: 5% 10% 0% 10%;
+    font-size: 50px;
+    margin: 0px;
+}
+div.third-section-track-label > h1 {
+    padding: 0px 10%;
+    font-size: 70px;
+    color: salmon;
+    margin: 0px;
+}
+div.third-section-track-label > button {
+    margin: 10%;
+}
+button.standart-button > a {
+    text-decoration: none;
+    color: white;
+}
+div.third-section-track-label > button:hover {
+    position: relative;
+    color: white;
+    background-color: rgb(255, 167, 157);
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10%;
+}
+div.contact-us {
+    background-color: rgb(9, 9, 69);
+    margin-top: 40px;
+    position: relative;
+}
+.contact-us > img {
+    width: 100%;
+    filter: opacity(0.5) drop-shadow(0 0 rgb(9, 9, 69));
+}
+.contact-block{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 100%;
+}
+.contact-items > h1 {
+    font-size: 70px;
+}
+.contact-items > p {
+    font-size: 40px;
+    text-align: center;
+}
+.contact-items-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.third-section-resources-text {
+    display: flex;
+    justify-content: center;
+}
+.third-section-resources-text > div > h1 {
+    text-align: center;
+}
+.third-section-resources-text > div > h2 {
+    text-align: center;
+    color: salmon;
+}
+.third-section-resources-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 200px;
+    height: 400px;
+}
+.third-section-resources-card {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.third-section-resources-card > img {
+    width: 100%;
+}
+.third-section-resources-card > .standart-button {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.third-section-resources-card-text {
+    padding: 5px 30px;
+}
+.third-section-resources-card-read-more {
+    padding: 5px 30px;
+    color: salmon;
+}

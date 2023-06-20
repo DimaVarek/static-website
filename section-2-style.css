@@ -1,0 +1,80 @@
+.second-section-video {
+    width: 100%;
+    background-color: rgb(9, 9, 69);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe.elementor-video {
+    height: 500px;
+    width: 1000px;
+}
+.second-section-text-papers-buttons {
+    padding: 50px 200px 0px 200px;
+    background-color: rgb(244, 244, 244);
+}
+#second-section-text-header {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px 100px;
+}
+#second-section-text-text {
+    text-align: center;
+    font-size: 30px;
+    color: salmon;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.second-section-papers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 350px;
+    grid-gap: 15px;
+}
+.second-section-papers-item {
+    background-color: white;
+    height: 100%;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.second-section-papers-item-div-img {
+    display: flex;
+    justify-content: center;
+}
+.second-section-papers-item-img {
+    height: 70px;
+}
+div.second-section-papers-item > p {
+    text-align: center;
+}
+div.second-section-papers-item > h2 {
+    text-align: center;
+}
+p.second-section-papers-item-tags {
+    color: rgb(148, 148, 148);
+}
+div.second-section-buttons {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    height: 100px;
+    margin: 0px 10px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+div.second-section-buttons > .standart-button {
+    font-size: 15px;
+    margin-left: 20px;
+}
+#second-section-button-1 {
+    background-color: rgb(9, 9, 69);
+}
+#second-section-button-3 {
+    background-color: blue;
+}
+#second-section-button-4 {
+    background-color: lightgray;
+}
